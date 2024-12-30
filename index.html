@@ -1,0 +1,828 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+    <link rel="stylesheet" href="./style.css">
+    
+</head>
+<body>
+
+    <!-- TOPBAR -->
+    <section class="bg-primary">
+        <div class="d-none d-xl-block d-xxl-block">
+            <div class="d-flex px-5 py-3 justify-content-between">
+                <div class="ff-santral-light pe-3">
+                    <p class="text-small">Purchases made on this site will ship to U.S. addresses only. Do you want to shop the U.S. site?</p>
+                </div>
+                <div class="d-flex gap-3 align-items-center">
+                    <a href="" class="ff-santral-regular text-dark text-small text-nowrap">
+                        <strong>Shop the U.S. site</strong>
+                    </a>
+                    <span class="text-small">Or</span>
+                    <span class="ff-santral-regular text-dark text-small text-nowrap">
+                        <b>Choose location </b>
+                        <i class="bi bi-caret-down-fill"></i>
+                    </span>
+                    <span>
+                        <i class="bi bi-x-lg"></i>
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="d-block d-xl-none py-3">
+            <div class="ff-santral-light pe-3 px-5 mb-2">
+                <p class="text-small">Purchases made on this site will ship to U.S. addresses only. Do you want to shop the U.S. site?</p>
+            </div>
+            <div class="d-flex px-5 justify-content-between">
+                <div class="d-flex gap-3 align-items-center">
+                    <a href="" class="ff-santral-regular text-dark text-small text-nowrap">
+                        <strong>Shop the U.S. site</strong>
+                    </a>
+                    <span class="text-small">Or</span>
+                    <span class="ff-santral-regular text-dark text-small text-nowrap">
+                        <b>Choose location </b>
+                        <i class="bi bi-caret-down-fill"></i>
+                    </span>
+                    <span>
+                        <i class="bi bi-x-lg"></i>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- TOPBAR -->
+    <!-- NAVBAR -->
+    <section>
+        <header class="d-none d-xl-block d-xxl-block">
+            <div class="d-flex justify-content-between mx-5 me-0">
+                <div class="d-flex align-items-center gap-4">
+                    <div class="menu-icon cursor-pointer" id="search-icon" style="background-image: url(./assets/home/Search-1.svg);">
+
+                    </div>
+                    <div class="menu-icon cursor-pointer" id="location-icon" style="background-image: url(./assets/home/StoreLocator.svg);">
+
+                    </div>
+                    <div class="d-flex gap-2 align-items-center cursor-pointer"  id="consirge-icon">
+                        <div class="menu-icon" style="background-image: url(./assets/home/Concierge.svg);">
+
+                        </div>
+                        <span class="text-small fw-600">Contact Us</span>
+                    </div>
+                </div>
+                <div class="py-4">
+                    <img src="assets/home/tiffco-logo-2.svg" alt="" class="w-100" style="height: 23px">
+                </div>
+                <div class="position-relative" id="right-container">
+                    <div class="d-flex align-items-center gap-4 py-4 px-5">
+                        <div class="d-flex gap-2 align-items-center cursor-pointer"  id="appointment-icon">
+                            <div class="menu-icon" style="background-image: url(./assets/home/Appointment.svg);">
+    
+                            </div>
+                            <span class="text-small fw-600">Book an Appointment</span>
+                        </div>
+                        <div class="menu-icon cursor-pointer" id="user-icon" style="background-image: url(./assets/home/MyAccount.svg);">
+    
+                        </div>
+                        <div class="menu-icon cursor-pointer" id="heart-icon" style="background-image: url(./assets/home/Wishlist.svg);">
+    
+                        </div>
+                        <div class="menu-icon cursor-pointer" id="cart-icon" style="background-image: url(./assets/home/ShoppingBag.svg);">
+    
+                        </div>
+                    </div>
+                    <div class="flyout-content position-absolute d-flex align-items-start">
+                        <div class="d-flex flex-column pt-5 px-4">
+                            <h3 class="ff-santral-bold">Sign In or Create an Account</h3>
+                            <span class="ff-santral-regular mb-5">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores sed distinctio explicabo. Sed est rerum qui facilis perspiciatis illo distinctio?
+                            </span>
+
+                            <a href="" class="ff-santral-bold text-dark mb-4">
+                                Create an Account
+                            </a>
+
+                            <a href="" class="ff-santral-bold text-dark">
+                                Sign In
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex justify-content-center mx-5 mb-4" >
+                <nav>
+                    <ul class="d-flex list-inline gap-5">
+                        <li class="menu-item position-relative dropdown" style="position: static !important;">
+                            <a href="" class="nav-item dropdown-toggle" data-bs-toggle="dropdown">
+                                Lorem.
+                            </a>
+                            <div class="dropdown-menu py-5">
+                                <div class="container" style="margin: auto !important;">
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            <div class="d-flex">
+                                                <div style="margin-right: 7rem !important;">
+                                                    <div class="mb-3">
+                                                        <span class="ff-santral-bold">Gifts for...</span>
+                                                    </div>
+                                                    <ul class="ff-santral-regular list-inline">
+                                                        <li class="mb-3">
+                                                            <a href="" class="td-none text-small text-dark nav-link-dd">
+                                                                <span>Necklaces & Pendants.</span>
+                                                            </a>
+                                                        </li>
+                                                        <li class="mb-3">
+                                                            <a href="" class="td-none text-small text-dark nav-link-dd">
+                                                                <span>Gifts $1,500 & Under</span>
+                                                            </a>
+                                                        </li>
+                                                        <li class="mb-3">
+                                                            <a href="" class="td-none text-small text-dark nav-link-dd">
+                                                                <span>Tiffany Blue® Gifts</span>
+                                                            </a>
+                                                        </li>
+                                                        <li class="mb-3">
+                                                            <a href="" class="td-none text-small text-dark nav-link-dd">
+                                                                <span>Gifts to Personalize</span>
+                                                            </a>
+                                                        </li>
+                                                        <li class="mb-3">
+                                                            <a href="" class="td-none text-small text-dark nav-link-dd">
+                                                                <span>Gifts to Personalize</span>
+                                                            </a>
+                                                        </li>
+                                                        <li class="mb-3">
+                                                            <a href="" class="td-none text-small text-dark nav-link-dd">
+                                                                <span class="ff-santral-bold">Gifts to Personalize</span>
+                                                            </a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div>
+                                                    <div class="mb-3">
+                                                        <span class="ff-santral-bold">Gifts for...</span>
+                                                    </div>
+                                                    <ul class="ff-santral-regular list-inline">
+                                                        <li class="mb-3">
+                                                            <a href="" class="td-none text-small text-dark nav-link-dd">
+                                                                <span>Wedding Gifts.</span>
+                                                            </a>
+                                                        </li>
+                                                        <li class="mb-3">
+                                                            <a href="" class="td-none text-small text-dark nav-link-dd">
+                                                                <span>Anniversary Gifts!</span>
+                                                            </a>
+                                                        </li>
+                                                        <li class="mb-3">
+                                                            <a href="" class="td-none text-small text-dark nav-link-dd">
+                                                                <span>Birthday Gifts!</span>
+                                                            </a>
+                                                        </li>
+                                                        <li class="mb-3">
+                                                            <a href="" class="td-none text-small text-dark nav-link-dd">
+                                                                <span>Business Gifts.</span>
+                                                            </a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="d-flex flex-column px-3 gap-2">
+                                                <img src="assets/home/menu-banner.webp" alt="">
+                                                <span class="ff-santral-regular text-muted text-small" >Gifts for Her</span>
+                                                <a href="" class="ff-santral-bold text-dark">Shop Now</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="menu-item position-relative"><a href="" class="nav-item">Nostrum.</a></li>
+                        <li class="menu-item position-relative"><a href="" class="nav-item">Doloremque!</a></li>
+                        <li class="menu-item position-relative"><a href="" class="nav-item">Modi.</a></li>
+                        <li class="menu-item position-relative"><a href="" class="nav-item">Perferendis.</a></li>
+                        <li class="menu-item position-relative"><a href="" class="nav-item">Perferendis?</a></li>
+                        <li class="menu-item position-relative"><a href="" class="nav-item">Illum!</a></li>
+                        <li class="menu-item position-relative"><a href="" class="nav-item">Modi!</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <header class="d-none d-md-block d-lg-block d-xl-none d-xxl-none">
+            <div class="d-flex justify-content-between mx-5 me-0">
+                <div class="d-flex align-items-center gap-4">
+                    <div class="menu-icon cursor-pointer" id="list-icon" 
+                    style="background-image: url(./assets/home/Hamburger-Menu.svg);"
+                    data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar">
+
+                    </div>
+                    <div class="menu-icon cursor-pointer" id="search-icon" style="background-image: url(./assets/home/Search-1.svg);">
+
+                    </div>
+                    <div class="menu-icon cursor-pointer" id="location-icon" style="background-image: url(./assets/home/StoreLocator.svg);">
+
+                    </div>
+                </div>
+                <div class="py-4">
+                    <img src="assets/home/tiffco-logo-2.svg" alt="" class="w-100" style="height: 23px">
+                </div>
+                <div class="position-relative" id="right-container">
+                    <div class="d-flex align-items-center gap-4 py-4 px-5">
+             
+                        <div class="menu-icon cursor-pointer" id="user-icon" style="background-image: url(./assets/home/MyAccount.svg);">
+    
+                        </div>
+                        <div class="menu-icon cursor-pointer" id="heart-icon" style="background-image: url(./assets/home/Wishlist.svg);">
+    
+                        </div>
+                        <div class="menu-icon cursor-pointer" id="cart-icon" style="background-image: url(./assets/home/ShoppingBag.svg);">
+    
+                        </div>
+                    </div>
+                    <div class="flyout-content position-absolute d-flex align-items-start">
+                        <div class="d-flex flex-column pt-5 px-4">
+                            <h3 class="ff-santral-bold">Sign In or Create an Account</h3>
+                            <span class="ff-santral-regular mb-5">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores sed distinctio explicabo. Sed est rerum qui facilis perspiciatis illo distinctio?
+                            </span>
+
+                            <a href="" class="ff-santral-bold text-dark mb-4">
+                                Create an Account
+                            </a>
+
+                            <a href="" class="ff-santral-bold text-dark">
+                                Sign In
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <header class="d-block d-md-none">
+            <div class="d-flex justify-content-between px-5 py-3">
+                <div class="menu-icon cursor-pointer" id="list-icon" 
+                style="background-image: url(./assets/home/Hamburger-Menu.svg);"
+                data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar">
+
+                </div>
+                <img src="assets/home/tiffco-logo-2.svg" alt="" class="w-100" style="height: 23px">
+                <div class="menu-icon cursor-pointer" id="user-icon" style="background-image: url(./assets/home/MyAccount.svg);">
+    
+                </div>
+            </div>
+        </header>
+
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasExampleLabel">
+            <div class="offcanvas-header justify-content-end p-4">
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body px-4">
+              <ul class="list-inline ff-santral-regular">
+                <li class="mb-3"><a href="" class="text-dark td-none">Lorem, ipsum dolor.</a></li>
+                <li class="mb-3"><a href="" class="text-dark td-none">Iste, consequuntur esse!</a></li>
+                <li class="mb-3"><a href="" class="text-dark td-none">At, obcaecati minima!</a></li>
+                <li class="mb-3"><a href="" class="text-dark td-none">Quibusdam, praesentium</a></li>
+                <li class="mb-3"><a href="" class="text-dark td-none">Hic, animi distinctio.</a></li>
+                <li class="mb-3"><a href="" class="text-dark td-none">Facere, aliquid error!</a></li>
+                <li class="mb-3"><a href="" class="text-dark td-none">Quos, molestiae sint.</a></li>
+                <li class="mb-3"><a href="" class="text-dark td-none">Vel, quos inventore!</a></li>
+              </ul>
+              
+              <div class="border-bottom my-5"></div>
+
+              <ul class="list-inline ff-santral-regular">
+                <li class="mb-3">
+                    <a href="" class="text-dark td-none d-flex gap-3 align-items-center">
+                        <img src="assets/home/Concierge.svg" alt="" style="width: 15px;">
+                        Lorem, ipsum.
+                    </a>
+                </li>
+                <li class="mb-3">
+                    <a href="" class="text-dark td-none d-flex gap-3 align-items-center">
+                        <img src="assets/home/ShoppingBag.svg" alt="" style="width: 15px;">
+                        Ipsa, cupiditate?
+                    </a>
+                </li>
+                <li class="mb-3">
+                    <a href="" class="text-dark td-none d-flex gap-3 align-items-center">
+                        <img src="assets/home/MyAccount.svg" alt="" style="width: 15px;">
+                        Earum, non!
+                    </a>
+                </li>
+                <li class="mb-3">
+                    <a href="" class="text-dark td-none d-flex gap-3 align-items-center">
+                        <img src="assets/home/StoreLocator.svg" alt="" style="width: 15px;">
+                        Reprehenderit, veritatis.
+                    </a>
+                </li>
+              </ul>
+            </div>
+        </div>
+    </section>
+    <!-- NAVBAR -->
+
+    <!-- HOME -->
+    <section>
+        <div class="d-none d-xl-block d-xxl-block">
+            <div id="video-1" class="d-flex flex-column position-relative position-relative" style="margin-left: 10rem !important;margin-right: 10rem !important;">
+                <video src="assets/home/video_desktop.mp4" class="w-100 position-relative" 
+                autoplay muted loop id="video-home">
+    
+                </video>
+                <button class="btnVideoTaeser z-index-1" id="btn-video-1" onclick="sound()">
+                    <i id="icon-volume-desktop" class="bi bi-volume-up-fill"></i>
+                    <i id="icon-silent-desktop" class="bi bi-volume-mute-fill d-none"></i>
+                </button>
+                <button class="btnVideoTaeser z-index-1" id="btn-video-2" onclick="play_stop()">
+                    <i id="icon-play-desktop" class="bi bi-play-fill d-none"></i>
+                    <i id="icon-pause-desktop" class="bi bi-pause-fill"></i>
+                </button>
+                <div class="d-flex position-absolute" id="viewport-header">
+                    <div class="d-flex align-items-center flex-column gap-3 mb-5" style="max-width: 400px;">
+                        <h2 class="ff-santral-bold text-white text-center">With Love, Since 1837</h2>
+                        <span class="ff-santral-light text-white text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, corporis.</span>
+                        <a href="" class="text-center btn-style-1">
+                            <span>Shop Now</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="d-none d-md-block d-lg-block d-xl-none d-xxl-none">
+            <div id="video-1" class="d-flex flex-column position-relative position-relative">
+                <video src="assets/home/video_desktop.mp4" class="w-100 position-relative" 
+                autoplay muted loop id="video-home">
+    
+                </video>
+                <button class="btnVideoTaeser z-index-1" id="btn-video-1" onclick="sound()">
+                    <i id="icon-volume-desktop" class="bi bi-volume-up-fill"></i>
+                    <i id="icon-silent-desktop" class="bi bi-volume-mute-fill d-none"></i>
+                </button>
+                <button class="btnVideoTaeser z-index-1" id="btn-video-2" onclick="play_stop()">
+                    <i id="icon-play-desktop" class="bi bi-play-fill d-none"></i>
+                    <i id="icon-pause-desktop" class="bi bi-pause-fill"></i>
+                </button>
+                <div class="d-flex position-absolute" id="viewport-header">
+                    <div class="d-flex align-items-center flex-column gap-3 mb-5" style="max-width: 400px;">
+                        <h2 class="ff-santral-bold text-white text-center">With Love, Since 1837</h2>
+                        <span class="ff-santral-light text-white text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, corporis.</span>
+                        <a href="" class="text-center btn-style-1">
+                            <span>Shop Now</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="d-block d-md-none">
+            <div id="video-1" class="d-flex flex-column position-relative position-relative">
+                <video src="assets/home/video_mobile.mp4" class="w-100 position-relative" 
+                autoplay muted loop id="video-home">
+    
+                </video>
+                <button class="btnVideoTaeser z-index-1" id="btn-video-1" onclick="sound()">
+                    <i id="icon-volume-desktop" class="bi bi-volume-up-fill"></i>
+                    <i id="icon-silent-desktop" class="bi bi-volume-mute-fill d-none"></i>
+                </button>
+                <button class="btnVideoTaeser z-index-1" id="btn-video-2" onclick="play_stop()">
+                    <i id="icon-play-desktop" class="bi bi-play-fill d-none"></i>
+                    <i id="icon-pause-desktop" class="bi bi-pause-fill"></i>
+                </button>
+                <div class="d-flex position-absolute" id="viewport-header">
+                    <div class="d-flex align-items-center flex-column gap-3 mb-5" style="max-width: 400px;">
+                        <h2 class="ff-santral-bold text-white text-center">With Love, Since 1837</h2>
+                        <span class="ff-santral-light text-white text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, corporis.</span>
+                        <a href="" class="text-center btn-style-1">
+                            <span>Shop Now</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- HOME -->
+
+    <!-- PRODUCTS -->
+    <section>
+        <div class="p-5">
+            <div class="slack-rs">
+                <div class="me-3 position-relative">
+                    <img src="assets/home/product-1.webp" alt="" class="w-100 position-relative">
+
+                    <span class="badge text-bg-dark">Dark</span>
+                    <img class="wishlist-product" src="assets/home/wishlisticon-empty.gif" style="width: 20px;">
+                </div>
+                <div class="me-3">
+                    <img src="assets/home/product-2.webp" alt="" class="w-100">
+                </div>
+                <div class="me-3 position-relative">
+                    <img src="assets/home/product-3.webp" alt="" class="w-100 position-relative">
+
+                    <span class="badge text-bg-dark">Dark</span>
+                    <img class="wishlist-product" src="assets/home/wishlisticon-empty.gif" style="width: 20px;">
+                </div>
+                <div class="me-3">
+                    <img src="assets/home/product-4.webp" alt="" class="w-100">
+                </div>
+                <div class="me-3 position-relative">
+                    <img src="assets/home/product-5.webp" alt="" class="w-100 position-relative">
+
+                    <span class="badge text-bg-dark">Dark</span>
+                    <img class="wishlist-product" src="assets/home/wishlisticon-empty.gif" style="width: 20px;">
+                </div>
+                <div class="me-3">
+                    <img src="assets/home/product-6.webp" alt="" class="w-100">
+                </div>
+                <div class="me-3">
+                    <img src="assets/home/product-7.webp" alt="" class="w-100">
+                </div>
+            </div>
+
+            <div class="d-flex justify-content-center py-4">
+                <a href="" class="text-center btn-style-1" style="width: 180px !important;display: block !important;">
+                    <span>Shop Now</span>
+                </a>
+            </div>
+        </div>
+    </section>
+    <!-- PRODUCTS -->
+
+    <section>
+        <div class="p-5">
+
+            <div class="d-flex justify-content-center mb-5">
+                <div class="d-flex flex-column">
+                    <h2 class="text-center ff-santral-bold">The Tiffany Icons</h2>
+                    <span class="text-center ff-santral-regular">For 187 years, Tiffany’s iconic collections have helped an ever-changing world speak the ever-changing language of love.</span>
+                </div>
+            </div>
+
+            <div class="slack-rs-2">
+                <div class="me-3">
+                    <img src="assets/home/product-9.webp" alt="" class="w-100">
+                    <div class="mt-4">
+                        <h5 class="mb-0 ff-santral-bold text-center">Lorem, ipsum dolor.</h5>
+                        <div class="d-flex justify-content-center">
+                            <a href="" class="text-center btn-style-1 ff-santral-bold" style="width: 180px !important;display: block !important;border: 0px;">
+                                <span>
+                                    <div class="d-flex gap-2">
+                                        <p>Shop Now</p>
+                                        <i class="bi bi-arrow-right-short"></i>
+                                    </div>
+                                </span>
+                                
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="me-3">
+                    <img src="assets/home/product-10.webp" alt="" class="w-100">
+                    <div class="mt-4">
+                        <h5 class="mb-0 ff-santral-bold text-center">Lorem, ipsum dolor.</h5>
+                        <div class="d-flex justify-content-center">
+                            <a href="" class="text-center btn-style-1 ff-santral-bold" style="width: 180px !important;display: block !important;border: 0px;">
+                                <span>
+                                    <div class="d-flex gap-2">
+                                        <p>Shop Now</p>
+                                        <i class="bi bi-arrow-right-short"></i>
+                                    </div>
+                                </span>
+                                
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="me-3">
+                    <img src="assets/home/product-11.webp" alt="" class="w-100">
+                    <div class="mt-4">
+                        <h5 class="mb-0 ff-santral-bold text-center">Lorem, ipsum dolor.</h5>
+                        <div class="d-flex justify-content-center">
+                            <a href="" class="text-center btn-style-1 ff-santral-bold" style="width: 180px !important;display: block !important;border: 0px;">
+                                <span>
+                                    <div class="d-flex gap-2">
+                                        <p>Shop Now</p>
+                                        <i class="bi bi-arrow-right-short"></i>
+                                    </div>
+                                </span>
+                                
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="me-3">
+                    <img src="assets/home/product-12.webp" alt="" class="w-100">
+                    <div class="mt-4">
+                        <h5 class="mb-0 ff-santral-bold text-center">Lorem, ipsum dolor.</h5>
+                        <div class="d-flex justify-content-center">
+                            <a href="" class="text-center btn-style-1 ff-santral-bold" style="width: 180px !important;display: block !important;border: 0px;">
+                                <span>
+                                    <div class="d-flex gap-2">
+                                        <p>Shop Now</p>
+                                        <i class="bi bi-arrow-right-short"></i>
+                                    </div>
+                                </span>
+                                
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="me-3">
+                    <img src="assets/home/product-13.webp" alt="" class="w-100">
+                    <div class="mt-4">
+                        <h5 class="mb-0 ff-santral-bold text-center">Lorem, ipsum dolor.</h5>
+                        <div class="d-flex justify-content-center">
+                            <a href="" class="text-center btn-style-1 ff-santral-bold" style="width: 180px !important;display: block !important;border: 0px;">
+                                <span>
+                                    <div class="d-flex gap-2">
+                                        <p>Shop Now</p>
+                                        <i class="bi bi-arrow-right-short"></i>
+                                    </div>
+                                </span>
+                                
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="me-3">
+                    <img src="assets/home/product-14.webp" alt="" class="w-100">
+                    <div class="mt-4">
+                        <h5 class="mb-0 ff-santral-bold text-center">Lorem, ipsum dolor.</h5>
+                        <div class="d-flex justify-content-center">
+                            <a href="" class="text-center btn-style-1 ff-santral-bold" style="width: 180px !important;display: block !important;border: 0px;">
+                                <span>
+                                    <div class="d-flex gap-2">
+                                        <p>Shop Now</p>
+                                        <i class="bi bi-arrow-right-short"></i>
+                                    </div>
+                                </span>
+                                
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="me-3">
+                    <img src="assets/home/product-15.webp" alt="" class="w-100">
+                    <div class="mt-4">
+                        <h5 class="mb-0 ff-santral-bold text-center">Lorem, ipsum dolor.</h5>
+                        <div class="d-flex justify-content-center">
+                            <a href="" class="text-center btn-style-1 ff-santral-bold" style="width: 180px !important;display: block !important;border: 0px;">
+                                <span>
+                                    <div class="d-flex gap-2">
+                                        <p>Shop Now</p>
+                                        <i class="bi bi-arrow-right-short"></i>
+                                    </div>
+                                </span>
+                                
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="me-3">
+                    <img src="assets/home/product-16.webp" alt="" class="w-100">
+                    <div class="mt-4">
+                        <h5 class="mb-0 ff-santral-bold text-center">Lorem, ipsum dolor.</h5>
+                        <div class="d-flex justify-content-center">
+                            <a href="" class="text-center btn-style-1 ff-santral-bold" style="width: 180px !important;display: block !important;border: 0px;">
+                                <span>
+                                    <div class="d-flex gap-2">
+                                        <p>Shop Now</p>
+                                        <i class="bi bi-arrow-right-short"></i>
+                                    </div>
+                                </span>
+                                
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container" style="margin: auto !important;">
+            <div class="row">
+                <div class="col-lg-6 px-5 mb-5">
+                    <img src="assets/home/banner-1.webp" alt="" class="w-100 mb-4">
+                    <h3 class="ff-santral-bold text-center">Gifts for the Graduate</h3>
+                    <div class="d-flex justify-content-center">
+                        <a href="" class="text-center btn-style-1 ff-santral-bold" style="width: 180px !important;display: block !important;border: 0px;">
+                            <span>
+                                <div class="d-flex gap-2">
+                                    <p>Shop Now</p>
+                                    <i class="bi bi-arrow-right-short"></i>
+                                </div>
+                            </span>
+                            
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="col-lg-6 px-5">
+                    <img src="assets/home/banner-2.webp" alt="" class="w-100 mb-4">
+                    <h3 class="ff-santral-bold text-center">Gifts for the Graduate</h3>
+                    <div class="d-flex justify-content-center">
+                        <a href="" class="text-center btn-style-1 ff-santral-bold" style="width: 180px !important;display: block !important;border: 0px;">
+                            <span>
+                                <div class="d-flex gap-2">
+                                    <p>Shop Now</p>
+                                    <i class="bi bi-arrow-right-short"></i>
+                                </div>
+                            </span>
+                            
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-5">
+        <div class="container" style="margin: auto !important;">
+            <div class="d-flex justify-content-center mb-5">
+                <div class="d-flex flex-column">
+                    <h2 class="text-center ff-santral-bold">Shop by Category</h2>
+                    <span class="text-center ff-santral-regular">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, aperiam?
+                    </span>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-2 col-md-4 col-xs-6 mb-4 text-center px-2">
+                    <img src="assets/home/category-1.webp" alt="" class="w-100 mb-3">
+                    <span class="ff-santral-bold">Lorem, ipsum dolor.</span>
+                </div>
+                <div class="col-lg-2 col-md-4 col-xs-6 mb-4 text-center px-2">
+                    <img src="assets/home/category-2.webp" alt="" class="w-100 mb-3">
+                    <span class="ff-santral-bold">Lorem, ipsum dolor.</span>
+                </div>
+                <div class="col-lg-2 col-md-4 col-xs-6 mb-4 text-center px-2">
+                    <img src="assets/home/category-3.webp" alt="" class="w-100 mb-3">
+                    <span class="ff-santral-bold">Lorem, ipsum dolor.</span>
+                </div>
+                <div class="col-lg-2 col-md-4 col-xs-6 mb-4 text-center px-2">
+                    <img src="assets/home/category-4.webp" alt="" class="w-100 mb-3">
+                    <span class="ff-santral-bold">Lorem, ipsum dolor.</span>
+                </div>
+                <div class="col-lg-2 col-md-4 col-xs-6 mb-4 text-center px-2">
+                    <img src="assets/home/category-5.webp" alt="" class="w-100 mb-3">
+                    <span class="ff-santral-bold">Lorem, ipsum dolor.</span>
+                </div>
+                <div class="col-lg-2 col-md-4 col-xs-6 mb-4 text-center px-2">
+                    <img src="assets/home/category-6.webp" alt="" class="w-100 mb-3">
+                    <span class="ff-santral-bold">Lorem, ipsum dolor.</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-5">
+        <div class="container" style="margin: auto !important;">
+            <div class="row">
+                <div class="col-xl-4 col-lg-5 text-center px-4 d-flex align-items-center mb-5">
+                    <div class="d-flex flex-column">
+                        <h2 class="ff-santral-bold mb-4">Our Newest High Jewelry Collection</h2>
+                        <span class="ff-santral-regular mb-4">
+                            A tribute to legendary Tiffany & Co. designer Jean Schlumberger, Blue Book 2024: Tiffany Céleste is a journey through the wonder of celestial bodies. Chief Artistic Officer Nathalie Verdeille reimagines Jean Schlumberger’s surreal designs into an exquisite new Tiffany High Jewelry collection.
+                        </span>
+                        <div class="d-flex justify-content-center py-4">
+                            <a href="" class="text-center btn-style-1" style="width: 180px !important;display: block !important;">
+                                <span>Shop Now</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-8 col-lg-7">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6">
+                            <img src="assets/home/banner-3.webp" alt="" class="w-100">
+                        </div>
+                        <div class="col-lg-6 col-md-6">
+                            <img src="assets/home/banner-4.webp" alt="" class="w-100">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="d-none d-md-block">
+            <div style="background-image: url(assets/home/section-1.webp);height: 470px;background-size: cover;background-position: center;">
+                <div class="d-flex justify-content-end align-items-center w-100 h-100" style="padding-right: 5rem !important;">
+                    <div class="d-flex flex-column align-items-center gap-4" style="max-width: 400px;">
+                        <h3 class="ff-santral-bold text-white">Love & Engagement</h3>
+                        <span class="ff-santral-regular text-white text-center">Tiffany & Co. engagement rings feature the world’s finest diamonds and unparalleled craftsmanship—signatures of the House for almost two centuries.</span>
+                        <a href="" class="ff-santral-bold text-white">Explore Engagement Rings </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="d-block d-md-none mb-5">
+            <div class="mb-5" style="background-image: url(assets/home/section-1-rs.jpg);height: 470px;background-size: cover;background-position: center;">
+                
+            </div>
+            <div class="d-flex justify-content-center align-items-center w-100 h-100">
+                <div class="d-flex flex-column align-items-center gap-3" style="max-width: 400px;">
+                    <h3 class="ff-santral-bold">Love & Engagement</h3>
+                    <a href="" class="ff-santral-bold text-dark">Explore Engagement Rings </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="d-none d-md-block">
+            <div style="background-image: url(assets/home/section-2.webp);height: 470px;background-size: cover;background-position: center;">
+                <div class="d-flex justify-content-start align-items-center w-100 h-100" style="padding-left: 5rem !important;">
+                    <div class="d-flex flex-column align-items-center gap-4" style="max-width: 400px;">
+                        <h3 class="ff-santral-bold">Love & Engagement</h3>
+                        <span class="ff-santral-regular text-center">Tiffany & Co. engagement rings feature the world’s finest diamonds and unparalleled craftsmanship—signatures of the House for almost two centuries.</span>
+                        <a href="" class="ff-santral-bold text-dark">Explore Engagement Rings </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="d-block d-md-none mb-5">
+            <div class="mb-5" style="background-image: url(assets/home/section-2-rs.jpg);height: 470px;background-size: cover;background-position: center;">
+                
+            </div>
+            <div class="d-flex justify-content-center align-items-center w-100 h-100">
+                <div class="d-flex flex-column align-items-center gap-3" style="max-width: 400px;">
+                    <h3 class="ff-santral-bold">Love & Engagement</h3>
+                    <a href="" class="ff-santral-bold text-dark">Explore Engagement Rings </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="d-flex justify-content-center py-3" style="border-top: 3px solid #81d8d0;border-bottom: 7px solid #81d8d0;">
+            <span class="ff-santral-bold">Home</span>
+        </div>
+    </section>
+
+    <footer class="py-5">
+        <div class="container" style="margin: auto !important;">
+            <div class="row">
+                <div class="col-xl-9">
+                    <div class="d-flex">
+                        <div style="margin-right: 5rem !important;">
+                            <h6 class="ff-santral-bold mb-3">Lorem ipsum</h6>
+                            <ul class="list-inline ff-santral-regular">
+                                <li class="mb-2"><a href="" class="text-small text-dark td-none">Lorem, ipsum dolor.</a></li>
+                                <li class="mb-2"><a href="" class="text-small text-dark td-none">Laudantium, error saepe!</a></li>
+                                <li class="mb-2"><a href="" class="text-small text-dark td-none">Repellendus, dolores aut!</a></li>
+                                <li class="mb-2"><a href="" class="text-small text-dark td-none">Iusto, omnis est.</a></li>
+                                <li class="mb-2"><a href="" class="text-small text-dark td-none">Iure, culpa ratione.</a></li>
+                            </ul>
+                        </div>
+                        <div style="margin-right: 5rem !important;">
+                            <h6 class="ff-santral-bold mb-3">Lorem ipsum</h6>
+                            <ul class="list-inline ff-santral-regular">
+                                <li class="mb-2"><a href="" class="text-small text-dark td-none">Lorem, ipsum dolor.</a></li>
+                                <li class="mb-2"><a href="" class="text-small text-dark td-none">Laudantium, error saepe!</a></li>
+                                <li class="mb-2"><a href="" class="text-small text-dark td-none">Repellendus, dolores aut!</a></li>
+                                <li class="mb-2"><a href="" class="text-small text-dark td-none">Iusto, omnis est.</a></li>
+                                <li class="mb-2"><a href="" class="text-small text-dark td-none">Iure, culpa ratione.</a></li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h6 class="ff-santral-bold mb-3">Lorem ipsum</h6>
+                            <ul class="list-inline ff-santral-regular">
+                                <li class="mb-2"><a href="" class="text-small text-dark td-none">Lorem, ipsum dolor.</a></li>
+                                <li class="mb-2"><a href="" class="text-small text-dark td-none">Laudantium, error saepe!</a></li>
+                                <li class="mb-2"><a href="" class="text-small text-dark td-none">Repellendus, dolores aut!</a></li>
+                                <li class="mb-2"><a href="" class="text-small text-dark td-none">Iusto, omnis est.</a></li>
+                                <li class="mb-2"><a href="" class="text-small text-dark td-none">Iure, culpa ratione.</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3" >
+                    <div class="d-flex flex-column">
+                        <h6 class="ff-santral-bold mb-3">Lorem ipsum</h6>
+                        <small class="mb-4" style="font-size: .8rem;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil impedit blanditiis dignissimos eaque illum cum!</small>
+
+                        <div class="form-floating mb-3">
+                            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" style="height: 40px !important;min-height: 40px !important;">
+                            <label for="floatingInput">Email Address</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="dropdown-backdrop"></div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="./app.js"></script>
+</body>
+</html>

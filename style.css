@@ -1,0 +1,323 @@
+*{
+    padding: 0px !important;
+    margin: 0px !important;
+}
+
+@font-face {
+    font-family: "Santral Light";
+    src: url(./assets/fonts/Santral\ Light.otf);
+}
+
+@font-face {
+    font-family: "Santral Regular";
+    src: url(./assets/fonts/Santral\ Regular.ttf);
+}
+
+@font-face {
+    font-family: "Santral Bold";
+    src: url(./assets/fonts/Santral\ Bold.ttf);
+}
+
+.ff-santral-light{
+    font-family: "Santral Light";
+}
+
+.ff-santral-bold{
+    font-family: "Santral Bold";
+}
+
+.ff-santral-regular{
+    font-family: "Santral Regular";
+}
+
+.bg-primary{
+    background-color: #81d8d0 !important;
+}
+
+.text-small{
+    font-size: .9rem !important;
+}
+
+.menu-icon{
+    width: 16px;
+    height: 16px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#search-icon:hover{
+    background-image: url(./assets/home/search-icon.gif) !important;
+}
+
+#location-icon:hover{
+    background-image: url(./assets/home/store-locator.gif) !important;
+}
+
+#consirge-icon:hover .menu-icon{
+    background-image: url(./assets/home/customer-service.gif) !important;
+}
+
+.cursor-pointer{
+    cursor: pointer;
+}
+
+#appointment-icon:hover .menu-icon{
+    background-image: url(./assets/home/book-an-apppointment.gif) !important;
+}
+
+#user-icon:hover{
+    background-image: url(./assets/home/my-account.gif) !important;
+}
+
+#heart-icon:hover{
+    background-image: url(./assets/home/wishlisticon-empty.gif) !important;
+}
+
+#cart-icon:hover{
+    background-image: url(./assets/home/shoppingbag-empty.gif) !important;
+}
+
+#list-icon:hover{
+    background-image: url(./assets/home/hamburger-1.gif) !important;
+}
+
+.fw-600{
+    font-weight: 600 !important;
+}
+
+.nav-item{
+    font-family: "Santral Light" !important;
+    color: black !important;
+    text-decoration: none !important;
+    font-size: .9rem !important;
+    position: relative !important;
+}
+
+.menu-item:hover::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    border-bottom: 2px solid #81d8d0;
+}
+
+.menu-item:hover .nav-item{
+    font-weight: 600;
+}
+
+#viewport-header{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    align-items: end;
+    justify-content: center;
+}
+
+.btn-style-1 {
+    background-color: white;
+    padding: 10px 20px !important;
+    color: black;
+    border: 1px solid black;
+    max-width: 140px;
+    font-size: .9rem;
+    text-decoration: none;
+    font-family: "Santral Regular" !important;
+}
+
+.td-none{
+    text-decoration: none;
+}
+
+.btn-style-1 span::after{
+    content: '';
+    height: 2px;
+    width: 0;
+    display: block;
+    background: #81d8d0;
+    transition: width .3s;
+}
+
+.btn-style-1:hover span::after{
+    width: 100%;
+}
+
+.btnVideoTaeser{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    border: none;
+    position: absolute;
+    display: none;
+}
+
+#btn-video-1{
+    left: 20px;
+    bottom: 20px;
+}
+
+#btn-video-2{
+    right: 20px;
+    bottom: 20px;
+}
+
+#video-1:hover .btnVideoTaeser{
+    display: block;
+}
+
+.z-index-1{
+    z-index: 1;
+}
+
+.dropdown-menu{
+    width: 100% !important;
+    right: 0 !important;
+    left: auto !important;
+    border-radius: 0px !important;
+    border: none !important;
+}
+
+.nav-link-dd span::after{
+    content: '';
+    height: 1px;
+    width: 0px;
+    bottom: 0;
+    background-color: #81d8d0;
+    display: block;
+    transition: width .3s;
+}
+
+.nav-link-dd:hover span::after{
+    width: 100%;
+}
+
+#right-container:hover{
+    background-color: #81d8d0 !important;
+}
+
+.flyout-content{
+    /* height: calc(100vh - 130px); */
+    background-color: #f1f1f1;
+    width: 100%;
+    z-index: 1;
+    height: 0px;
+    transition: height .3s;
+    overflow: hidden;
+}
+
+#right-container:hover .flyout-content{
+    height: calc(100vh - 130px);
+}
+
+.no-scroll{
+    overflow-y: hidden;
+}
+
+.text-nowrap{
+    white-space: nowrap !important;
+}
+
+.offcanvas-header{
+    border-top: 4px solid #81d8d0;
+}
+
+@media (max-width: 576px){
+    #offcanvasNavbar{
+        width: 100% !important;
+    }
+}
+
+span.badge.text-bg-dark {
+    padding: 5px 10px !important;
+    font-weight: 500 !important;
+    background: white !important;
+    color: black !important;
+    border: 1px solid black !important;
+    border-radius: 0px !important;
+    font-family: "Santral Regular" !important;
+    position: absolute !important;
+    top: 10px;
+    left: 10px;
+}
+
+.wishlist-product{
+    position: absolute !important;
+    top: 10px;
+    right: 10px;
+}
+
+.slick-prev{
+    position: absolute;
+    left: 0px;
+    z-index: 1;
+    bottom: 50%;
+    border: 1px solid #efecec;
+    background: white;
+    width: 50px;
+    height: 50px;
+}
+
+.slick-next{
+    position: absolute;
+    right: 10px;
+    z-index: 1;
+    bottom: 50%;
+    border: 1px solid #efecec;
+    background: white;
+    width: 50px;
+    height: 50px;
+}
+
+.slick-dots{
+    list-style: none !important;
+    width: 100% !important;
+    text-align: center !important;
+    margin-top: 3rem !important;
+}
+
+.slick-dots li button{
+    font-size: 0px !important;
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 50% !important;
+    border: 1px solid #585858 !important;
+    background-color: white !important;
+}
+
+.slick-dots li.slick-active button{
+    background-color: #585858 !important;
+}
+
+.slick-dots li{
+    display: inline-block !important;
+    margin-right: 1rem !important;
+}
+
+#floatingInput{
+    border-top: 0px !important;
+    border-left: 0px !important;
+    border-right: 0px !important;
+    border-bottom: 1px solid black !important;
+    outline: none !important;
+    border-radius: 0px !important;
+}
+
+.form-floating>.form-control:focus~label, .form-floating>.form-control:not(:placeholder-shown)~label{
+    transform: scale(.85) translateY(-1.2rem) translateX(0rem) !important;
+}
+
+.form-floating label{
+    font-family: "Santral Regular" !important;
+    font-size: .9rem !important;
+    color: #585858 !important;
+    padding-top: 10px !important;
+}
+
+.form-floating label::after{
+    background-color: transparent !important;
+}
+
+.form-control:focus{
+    box-shadow: none !important;
+}
